@@ -151,3 +151,34 @@ nav ul li a {
     color: black;
     align-self: flex-end;
 }
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    margin: 6rem 12rem;
+    padding: 3rem 0.5rem;
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-text {
+    text-align: left;
+}
+
+.signup-text h2, p {
+    color: #f9faf8;
+}
+
+.signup-btn button {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.6rem 2rem;
+    text-align: center;
+    border: 0.15rem solid #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f6; 
+    color: #f9faf8;
+    margin-left: -10rem;
+}

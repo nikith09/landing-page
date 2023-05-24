@@ -155,7 +155,7 @@ nav ul li a {
 .section-4 {
     display: flex;
     justify-content: center;
-    margin: 6rem 12rem;
+    margin: 8rem 12rem;
     padding: 3rem 0.5rem;
     background-color: #3882f6;
     border-radius: 0.5rem;
@@ -181,4 +181,12 @@ nav ul li a {
     background-color: #3882f6; 
     color: #f9faf8;
     margin-left: -10rem;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 2rem;
+    color: #f9faf8;
+    font-weight: 100;
+    font-size: 0.6rem;
 }

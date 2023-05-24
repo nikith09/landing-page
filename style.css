@@ -1,0 +1,133 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', arial;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.header-logo img {
+    width: 60px;
+    margin-right: 500px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 1.2rem;
+}
+
+.header nav ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 30px;
+}
+
+.section-1 {
+    display: flex;
+    background-color: #1f2937;
+    padding: 6rem 12rem;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.section-1-content {
+    text-align: left;
+    flex: 1;
+}
+
+.section-1-content h1 {
+    font-size: 3rem;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom: 1rem;
+}
+
+.section-1-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.section-1 div img {
+    width: 33rem;
+    height: auto;
+}
+
+.section-1-image {
+    flex: 1;
+}
+
+.section-1-content button {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.6rem 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882f6; 
+}
+
+.section-1-content button a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.section-2 h2 {
+    font-size: 2.25rem;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin: 3rem;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 10rem;
+}
+
+.card {
+    flex: 0;
+}
+
+.card div {
+    color: gray;
+}
+
+.card img {
+    height: 12rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border: 5px solid #3882f6;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin-bottom: 0.5rem;
+}
